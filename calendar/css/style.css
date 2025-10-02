@@ -52,9 +52,10 @@ body{
 .col-venue { flex: 0.6; }          
 .col-boton { flex: 0 0 50px; }
 
-@media (max-width: 768px){
+@media (max-width: 500px){
     body{
         background-image: url("../img/backgrounddiscography2.png") center/cover no-repeat;
         background-position: -320px 0px;
     }
+
 }
