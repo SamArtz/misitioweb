@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body{
+    background-image: url("../img/backgrounddiscography2.png");
+    background-size: cover;
+    background-position: center;             
+    background-repeat: no-repeat;             
+    background-attachment: fixed;             
+    background-color: #000000;
+    background-attachment: scroll;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+#date1 button{
+    appearance: none;
+    background: transparent;
+    color: #ad2831;
+    border: 0.3vh solid #ad2831; 
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 1vh 5vh;
+    font-size: 35px;
+
+}
+
+
+#date2 button{
+    appearance: none;
+    background: transparent;
+    color: #ad2831;
+    border: 0.3vh solid #ad2831; 
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 1vh 5vh;
+    font-size: 35px;
+
+}
+#date1, #date2 {
+    color: #ad2831;
+    display: flex;
+    align-items: center;       
+    gap: 10vh;                 
+    margin-left: 25vh;
+    padding-top: 5vh;          
+}
+
+#date1 { margin-top: 95vh; }
+.col-fecha { flex: 0 0 200px; }  
+.col-ciudad { flex: 0 0 250px; }  
+.col-venue { flex: 0.6; }          
+.col-boton { flex: 0 0 50px; }
+
+@media (max-width: 768px){
+    body{
+        background-image: url("../img/backgrounddiscography2.png") center/cover no-repeat;
+        background-position: -320px 0px;
+    }
+}
